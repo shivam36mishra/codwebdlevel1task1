@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codsoft</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            overflow-x: none;
+        }
+        .section1{
+            height: 50%;
+            width: 80%;
+            background-image:url(https://img.freepik.com/free-photo/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-jacket-jeans-fashion-male-posing-studio-near-white-wall_158538-24083.jpg?semt=ais_hybrid&w=740);
+            background-size: cover;
+            /*filter: blur(1px);*/
+
+        }
+        .navcontainer{
+            width: 100vw;
+            min-height: 80px;
+            background-color: rgba(50, 43, 43, 0.937);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .leftbox1{
+            color: azure;
+            gap: 2px;
+        }
+        .leftbox1 h3{
+            font-size: 2rem;
+        }
+        a{
+            text-decoration: none;
+            color: azure;
+        }
+        .rightbox1{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+            font-size: 1.2rem;
+        }
+        .list{
+            list-style: none;
+        }
+        .firstcontainer{
+            width: 100vw;
+            height: 50vh;
+        }
+        .test{
+            display: grid;
+            grid-template-columns: repeat(1,600px);
+            grid-template-rows: repeat(3,50px);
+            justify-self: end;
+            padding-top: 40px;
+            
+        }
+        .test button{
+            height: 35px;
+            width: 130px;
+            background-color: blue;
+            color: white;
+            font-size: 1rem;
+            border-radius: 20px;
+        }
+        .secondcontainer{
+            height: 50vh;
+            width: 100vw;
+            background-color: rgb(161, 158, 158);
+            display: flex;
+            
+        }
+        .rightside{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+           
+        }
+        .rightside button{
+            height: 50px;
+            width: 130px;
+            background-color: blue;
+            border-radius: 20px;
+            color: azure;
+            font-size: 1rem;
+        }
+        .rightside .para1{
+            font-size: 1.4rem;
+        }
+        .rightside .para2{
+            font-size: 1rem;
+            display: inline;
+            box-sizing: border-box;
+            
+            width: 1000px;
+        }
+        .leftside{
+             background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/full-length-portrait-of-stylish-young-man-in-casuals-looking-at-camera-hispanic-male-model-posing-on-grey-background_rT3ivIEte_thumb.jpg);
+            background-repeat: no-repeat;
+            position: absolute;
+            background-size: contain;
+            padding: 50px;
+            bottom: 0;
+            right: 80px;
+            width: 400px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--<header>-->
+            <nav class="section1">
+                <div class="navcontainer">
+                    <div class="leftbox1">
+                        <ul class="list">
+                            <li><h3> Online Portfolio</h3></li>
+                            <li><p>just another My Blog site</p></li></ul>
+                    </div>
+                    <div class="rightbox1">
+                        <a href="#">Home</a>
+                        <a href="#">About Me</a>
+                        <a href="#">Services</a>
+                        <a href="#">Skill</a>
+                        <a href="#">Testimonial</a>
+                        <a href="#">Experience</a>
+                        <a href="#">Works</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact Us</a>
+                    </div><!--header-->
+                </div>
+                <div class="test">
+                    <h1 class="item">ADITYA  RAJPUT</h1>
+                    <p class="item">"Hey there! I'm a web developer who loves turning ideas into interactive web experiences. This blog is where I share what I'm learning—and struggling—with."</p>
+                    <button class="item">Hire Me</button>
+                </div>
+            </nav>
+        <main>
+            <div class="secondcontainer">
+                <div class="rightside">
+                    <h1>ABOUT ME:</h1>
+                    <p class="para1">I Am developer blends expertise with industry know how to guide your next property development</p>
+                    <p class="para2">An engineer in the making with a builder’s mindset and a learner’s heart,currently pursuing B.Tech at Maharaja Agrasen Institute of Technology. I specialize in translating ideas into tangible results using tools like C++, Python, C, and SQL. Whether it’s developing a project from scratch or collaborating in a fast-paced team environment, I approach every challenge with curiosity, clarity, and commitment. I’m not just collecting skills—I’m learning how to use them to create impact.</p>
+                    <button>Download Resume</button>
+                </div>
+                <div class="leftside">
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
